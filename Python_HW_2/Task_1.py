@@ -4,7 +4,7 @@
 # - 0,56 -> 11
 
 
-N = input('Введите цифру:')
+N = input('Введите число:')
 suma = 0
 for s in N:
     if s.isdigit():
