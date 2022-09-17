@@ -8,3 +8,11 @@ num_1 = 1
 for i in range(1, N + 1):
     num_1 *=i
     print(num_1)
+
+
+
+n = int(input())
+res = [1]
+for i in range(2, n + 1):
+    res.append(res[-1] * i)
+print(res)
