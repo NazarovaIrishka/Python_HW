@@ -3,13 +3,15 @@
 # Пример:
 # - [1.1, 1.2, 3.1, 5, 10.01] => 0.19
 
-lis = [float(i) for i in input('Введите числа используя пробел: ').split()]
-min = 1
-max = 0
-for i in lis:
-    if (i - int(i)) <= min:
-        min = i - int(i)
-    if (i - int(i)) >= max:
-        max = i - int(i)
-print(max-min)
+# lis = [float(i) for i in input('Введите числа используя пробел: ').split()]
+# min = 1
+# max = 0
+# for i in lis:
+#     if (i - int(i)) <= min:
+#         min = i - int(i)
+#     if (i - int(i)) >= max:
+#         max = i - int(i)
+# print(max-min)
+
+
 
