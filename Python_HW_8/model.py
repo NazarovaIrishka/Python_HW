@@ -1,0 +1,1 @@
+from view import (get_student, get_changes, get_id, get_surname, get_first_name, get_patronymic, get_class_number, ge)
